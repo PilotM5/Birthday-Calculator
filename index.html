@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Birthday Calculator</h1>
+    <p class="p">Enter your birthday below to find out how many days until your next birthday</p>
+
+    <div class="form">
+        <div class="contaner">
+            <div class="one">
+                <label>Day : </label><br>
+                <input type="text" placeholder="Enter The Day" required id="day"><br>
+            </div>
+            <div class="two">
+                <label>Month : </label><br>
+                <input type="text" placeholder="Enter The Month" required id="month"><br>
+            </div>
+            <div class="three">
+                <label>Year : </label><br>
+                <input type="text" placeholder="Enter The Year" required id="year"><br>
+            </div>   
+        </div>
+        <div class="btn">
+            <button onclick="calculateDaysUntilBirthday()">Calculate</button>
+        </div>
+        <p id="result"></p>    
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+

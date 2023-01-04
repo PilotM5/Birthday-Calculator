@@ -1,0 +1,93 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(img/sign.jpg);
+    background-size:cover;
+    font-family: sans-serif;
+}
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width: 350px;
+    height: 420px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 15px;
+    box-sizing:border-box;
+}
+input[type="text"]{
+    position: absolute;
+    outline: none;
+    border: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid #0094ff;
+    background: none;
+    padding: 5px;
+    color: #fff;
+    /* margin-top: 50px; */
+}
+ /* input[type="number"]{
+    top: 140px;
+    left: 50px;
+} */
+ /* input[type="number"]{
+    top: 210px;
+    left: 50px;
+} */
+
+button{
+    position: absolute;
+    top: 305px;
+    left: 110px;
+    width: 130px;
+    height: 35px;
+    background-color: #0077ff;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fff;
+    color: #0077ff;
+}
+
+/* Old Code  */
+.title {
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+}
+.p {
+    text-align: center;
+    color: #fff;
+    line-height: 25px;
+}
+.contaner {
+    /* display: flex; */
+    /* justify-items: center; */
+    /* flex-wrap: wrap; */
+    /* margin-top: 50px; */
+    /* text-align: center; */
+    /* margin-left: 20px; */
+    /* margin-right: auto; */
+}
+.one , .two , .three {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+label {
+    line-height: 50px;
+    margin-right: 120px;
+    color: #eee;
+}
+#result {
+    text-align: center;
+    margin-top: 125px;
+    color: #fff;
+}
